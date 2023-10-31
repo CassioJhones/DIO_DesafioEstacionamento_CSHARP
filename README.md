@@ -1,5 +1,12 @@
 # DIO - Trilha .NET - Fundamentos
-www.dio.me
+[![wakatime](https://wakatime.com/badge/user/74ae1ab7-b54f-4962-bcef-7d24654719ce/project/013cac3f-0145-494b-a5ee-385cd29d75f6.svg)](https://wakatime.com/badge/user/74ae1ab7-b54f-4962-bcef-7d24654719ce/project/013cac3f-0145-494b-a5ee-385cd29d75f6?style=flat-square)
+
+
+Use ?style= to customize the look of your badge.
+
+Supported styles are default, plastic, flat, flat-square, for-the-badge, and social.
+
+
 
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
