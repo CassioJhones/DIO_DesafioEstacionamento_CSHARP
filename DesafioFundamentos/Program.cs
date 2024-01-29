@@ -12,12 +12,13 @@ precoInicial = Convert.ToDecimal(Console.ReadLine());
 Console.WriteLine("Agora digite o preço por hora:");
 precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
-Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
+Estacionamento LocalUm = new Estacionamento(precoInicial, precoPorHora);
 
 string opcao = string.Empty;
 bool exibirMenu = true;
 
-while (exibirMenu){
+while (exibirMenu)
+{
     Console.Clear();
     Console.WriteLine("Digite a sua opção:");
     Console.WriteLine("[1] - Cadastrar veículo");
@@ -25,14 +26,15 @@ while (exibirMenu){
     Console.WriteLine("[3] - Listar veículos");
     Console.WriteLine("[4] - Encerrar");
 
-    switch (Console.ReadLine()){
-        case "1": es.AdicionarVeiculo(); break;
-        case "2": es.RemoverVeiculo(); Console.ReadKey(); break;
-        case "3": es.ListarVeiculos(); Console.ReadKey(); break;
+    switch (Console.ReadLine())
+    {
+        case "1": LocalUm.AdicionarVeiculo(); break;
+        case "2": LocalUm.RemoverVeiculo(); Console.ReadKey(); break;
+        case "3": LocalUm.ListarVeiculos(); Console.ReadKey(); break;
         case "4": exibirMenu = false; break;
         default: Console.WriteLine("Opção inválida"); break;
     }
-    Console.WriteLine("Voltando..."); Thread.Sleep(600);
+    Console.WriteLine("Voltando..."); Thread.Sleep(300);
 }
 
 Console.WriteLine("O programa se encerrou");
